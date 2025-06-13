@@ -20,3 +20,6 @@ A lightweight and customizable Python-based port scanner designed to scan TCP po
 
 ```bash
 python3 port_scanner.py
+
+## 📘 Documentation
+See [docs/overview.md](docs/overview.md) and [docs/developer_notes.md](docs/developer_notes.md) for a full breakdown of how the scanner was built and why.
