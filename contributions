@@ -1,0 +1,56 @@
+# 🤝 Contributing to Python TCP Port Scanner
+
+Thank you for considering contributing to this project! This document outlines how to contribute effectively and professionally.
+
+---
+
+## 📌 Project Purpose
+This tool was built to demonstrate Python scripting for network diagnostics, automation, and cybersecurity readiness. Contributions that improve functionality, efficiency, or extensibility are welcome.
+
+---
+
+## 🚀 How to Contribute
+1. **Fork** the repository
+2. **Create a branch**: `git checkout -b feature/your-feature`
+3. **Make your changes** and test thoroughly
+4. **Commit** with clear messages: `git commit -m "Add: feature description"`
+5. **Push** to your fork: `git push origin feature/your-feature`
+6. **Create a Pull Request** and explain your changes
+
+---
+
+## 📖 Code Standards
+- Follow **PEP8** for all Python code
+- Use clear variable names and add comments where needed
+- Keep functions focused and reusable
+- Include error handling for edge cases
+
+---
+
+## 💡 Contribution Ideas
+- Add multi-threading for faster scans
+- Implement UDP scan support
+- Include export to CSV or HTML
+- Add scan logging with timestamps
+- Create a GUI using Tkinter or Flask
+
+---
+
+## 🧪 Testing Guidelines
+- Manually verify port ranges work correctly
+- Confirm hostname resolution handles failures
+- Validate that JSON output is properly formatted
+
+---
+
+## 🛡️ Security Notice
+Do not use this tool for unauthorized scanning or network probing. Contributions must respect ethical standards.
+
+---
+
+## 🗣️ Communication
+For major changes, feel free to open an issue first to discuss what you would like to change.
+
+---
+
+**Built and maintained by Deyron – Network Technician & Automation Strategist**
