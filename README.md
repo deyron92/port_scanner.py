@@ -5,16 +5,16 @@ A lightweight, professional-grade TCP Port Scanner written in Python. Built for 
 ---
 
 ## 📂 Project Structure
-```
-port-scanner.py/
-├── core_script                 # Main script (handles scan, CLI, JSON)
+
+port-scanner/
+├── port_scanner.py             # Main script (handles scan, CLI, JSON)
 ├── README.md                   # Project overview and usage instructions
 ├── CONTRIBUTING.md             # Guidelines for contributors
 ├── LICENSE                     # MIT License
 └── docs/
     ├── overview.md             # Technical explanation of scanner logic
     └── developer_notes.md      # Author's motivation and learning process
-```
+
 
 ---
 
@@ -32,48 +32,48 @@ port-scanner.py/
 - Python 3.7 or higher
 
 ### 💻 Interactive Mode
-```bash
+bash
 python3 port_scanner.py
-```
+
 Follow prompts for target, start port, and end port.
 
 ### 🧪 Command-Line Mode
-```bash
+bash
 python3 port_scanner.py --host 192.168.1.1 --start 20 --end 1024
-```
+
 
 ### 📤 Command-Line with JSON Output
-```bash
+bash
 python3 port_scanner.py --host scanme.nmap.org --start 22 --end 80 --json
-```
+
 
 ---
 
 ## 🧠 Sample JSON Output
-```json
+json
 {
   "target": "192.168.1.1",
   "open_ports": [22, 80, 443],
   "scan_duration": "0:00:01.547"
 }
-```
+
 
 ---
 
 ## 📘 Documentation
 Full documentation is available in the `docs/` folder:
-- [docs/overview.md](docs/overview.md) — Technical scanner logic
-- [docs/developer_notes.md](docs/developer_notes.md) — Project background, learning process, and future plans
+- docs/overview.md — Technical scanner logic
+- docs/developer_notes.md — Project background, learning process, and future plans
 
 ---
 
 ## 🤝 Contributing
-Interested in contributing? See [CONTRIBUTING.md](CONTRIBUTING.md) for code standards, ideas, and testing guidance.
+Interested in contributing? See CONTRIBUTING.md for code standards, ideas, and testing guidance.
 
 ---
 
 ## ⚖️ License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute under the terms specified.
+This project is licensed under the MIT License. You are free to use, modify, and distribute under the terms specified.
 
 ---
 
