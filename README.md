@@ -5,7 +5,7 @@ A lightweight, professional-grade TCP Port Scanner written in Python. Built for 
 ---
 
 ## 📂 Project Structure
-
+'''
 port-scanner/
 ├── port_scanner.py             # Main script (handles scan, CLI, JSON)
 ├── README.md                   # Project overview and usage instructions
@@ -14,7 +14,7 @@ port-scanner/
 └── docs/
     ├── overview.md             # Technical explanation of scanner logic
     └── developer_notes.md      # Author's motivation and learning process
-
+'''
 
 ---
 
