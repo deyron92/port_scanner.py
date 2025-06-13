@@ -4,6 +4,9 @@
 
 A lightweight and customizable Python-based port scanner designed to scan TCP ports on a given host. Ideal for showcasing scripting and basic cybersecurity skills to prospective employers.
 
+## 📘 Documentation
+See [docs/overview.md](docs/overview.md) and [docs/developer_notes.md](docs/developer_notes.md) for a full breakdown of how the scanner was built and why.
+
 ## 🚀 Features
 
 - Scans a range of TCP ports on a given target
