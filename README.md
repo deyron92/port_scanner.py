@@ -1,2 +1,22 @@
 # port_scanner.py
-A Python-based TCP Port Scanner that identifies open ports on a target host. Designed for learning, troubleshooting, and showcasing basic network automation and security skills.
+
+# 🔎 Python Port Scanner
+
+A lightweight and customizable Python-based port scanner designed to scan TCP ports on a given host. Ideal for showcasing scripting and basic cybersecurity skills to prospective employers.
+
+## 🚀 Features
+
+- Scans a range of TCP ports on a given target
+- Identifies open ports quickly using multithreading (optional future enhancement)
+- Cross-platform compatibility (Windows, macOS, Linux)
+- Easy to extend for penetration testing practice
+
+## 🛠️ Requirements
+
+- Python 3.7+
+- No third-party dependencies
+
+## 📦 Usage
+
+```bash
+python3 port_scanner.py
